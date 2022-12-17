@@ -1,0 +1,19 @@
+Contact Records:
+  Larry had contact with Zach
+  Zach had contact with George
+
+Patient Zero(s): Larry
+Potential Zombies: George
+Neither Patient Zero or Potential Zombie: Zach
+Most Viral People: Larry and Zach
+Most Contacted: George and Zach
+
+Heights:
+  Larry: 2
+  Zach: 1
+  George: 0
+
+For additional marks:
+  Spreader Zombies: Zach
+  Regular Zombies: (None)
+  Zombie Predators: Larry

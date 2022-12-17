@@ -1,0 +1,21 @@
+In the additional.py I coded functions that output the regular, spreader and predator zombies as per the instruction under section 11.
+
+For the predator zombie function I decided to present a recursive solution.
+For the regular zombie function I leverage the predator & spreader zombie functions by outputing the keys 
+in contacts_dic but not in union of the predator & spreader zombie lists
+
+I added an additional functionality that calculates the probability of becoming a zombie predator
+given that you have been infected by a zombie. I do this using Bayes' rule. I first calculate
+the probability of becoming infected by measuring the ratio of people that the chosen name has successfully infected.
+I then calculate the probability of becoming a predator zombie in a similar fashion (the ratio of people that became predator zombie after contact with the given name)
+
+The probability that a zombie is a predator given that he is infected is simply equal to 1 hence we are left
+with a simple fraction.
+
+I added certain safety measures such as if the probability of infection is 0 then the output
+is different (because then we would be dividing by 0 using Bayes' rule)
+
+I also consider if the user inputs a name that does not exist in the dictionary keys.
+
+Lastly, the probabilities are rounded to 3 decimal places.
+

@@ -1,0 +1,33 @@
+Contact Records:
+  Gerald had contact with Paolo
+  Jack had contact with Gerald and Robert
+  Karl had contact with Mario and Shay
+  Lonnie had contact with Gerald, Jack and William III
+  Mario had contact with Paolo
+  Olly had contact with Mario
+  Robert had contact with Paolo
+  Shay had contact with Mario
+  William III had contact with Mario and Robert
+
+Patient Zero(s): Karl, Lonnie and Olly
+Potential Zombies: Paolo
+Neither Patient Zero or Potential Zombie: Gerald, Jack, Mario, Robert, Shay and William III
+Most Viral People: Lonnie
+Most Contacted: Mario
+
+Heights:
+  Karl: 3
+  Lonnie: 3
+  Jack: 2
+  Olly: 2
+  Shay: 2
+  William III: 2
+  Gerald: 1
+  Mario: 1
+  Robert: 1
+  Paolo: 0
+
+For additional credit:
+  Spreader Zombies: Gerald, Mario and Robert
+  Regular Zombies: (None)
+  Zombie Predators: Jack, Karl, Lonnie, Olly, Shay and William III
